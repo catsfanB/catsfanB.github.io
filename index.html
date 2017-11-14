@@ -1,42 +1,108 @@
-<!-- Relative Paths Assignment 1 -->
-<!DOCTYPE html>
-<html lang="en-us">
-
+<!doctype html>
 <head>
-  <meta charset="UTF-8">
-  <title>Relative Paths Assignment 1</title>
+  <title>Brendan Scruggs Bio Page</title>
+  
+<!-- Style definitions for this HTML -->
+  <style>
+  h1 {
+    background: black;
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+  }
 
-  <!-- Fill in the href to the CSS such that this HTML file can access the CSS. -->
-  <!-- Don't move the HTML or CSS file. Use Relative Linking -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+  h2 {
+    padding-left: 5px;
+  }
+
+  h3 {
+    padding-left : 5px
+    margin-top: 0px;
+  }
+
+  body {
+    background: #fffae2;
+  }
+
+  div.row1 {
+    width: 100%;
+    clear: both;
+  }
+
+  div.col1 {
+    width: 18%;
+    float: left;
+    padding-left: 5px;
+  }
+
+  div.col1 img {
+    width: 100%;
+  }
+
+  div.col2 {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+  }
+
+  div.col3 {
+    width: 28%;
+    float: left;
+    padding-left: 10px;
+  }
+  .header {
+    font-size: large;
+    font-weight: bold;
+  }
+
+  </style>
+
 </head>
-
 <body>
-  <header>
-    <h1>Student Bio</h1>
-  </header>
+<!-- Page Header -->
+  <h1>Student Bio</h1>
 
-  <div class="container">
+<!-- Name for Bio -->
+  <h2>Brendan Scruggs</h2>
 
-    <section id="main-bio">
+<!-- First content section for the bio page: 1 row with 3 columns -->
+  <div class="row1">
 
-      <h2>Your Name</h2>
+<!-- Column 1 is for name and bio image -->
+    <div class="col1">
+      <img src="https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAtzAAAAJDBjZGI1MGE3LTg0ODUtNDZjMS1iYzA2LWRmOTBlODQ2MzJlNg.jpg" alt="Brendan Scruggs">
+      </div>
+  
+  <!-- Column 2 contains the short career bio -->
+    <div class="col2">
+        Seeking an opportunity to leverage my knowledge and experience in ecommerce and digital marketing to further an agile, fast-paced business’ strategic objectives while gaining more direct experience in the mobile space.
 
-      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+      <p>
+        As an 18+ year ecommerce veteran, I’ve spent my career enthusiastically working to deliver optimal results and create business value in high-growth, fast-paced environments. Expertise I’ve gained during this time includes: B2B and B2C ecommerce, digital performance marketing, program management, P and L management, strategic planning, organizational change management, data-driven business operations and client relationship management. I have had the pleasure of leading a wide range of functional areas: product development, business operations, business intelligence, business development, account management, partner management and project management.
+      </p>
 
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
+      <p>
+        For two brief times in my career I worked as a consultant utilizing my expertise to support other organizations in achieving quick results in the areas of ecommerce and multi-channel strategy, performance marketing and product development. My efforts over the past few years have focused on streamlining business operations while serving as a catalyst for growth and expansion, and transitioning companies from static or reduced growth to commercial success
+      </p>
 
-    <section id="contact-info">
-      <h2>Contact Info</h2>
+      <p>
+        I have a successful record of managing local, remote, in-house, outsourced, domestic and international teams ranging from 3 to over 50 members. While based in the US and Germany, my management experience included the organizational design, recruiting and development of entirely new functional departments. I have had the privilege to work both within and for highly recognizable global brands with annual online sales ranging from <$5MM to >$1B including Orbitz, Groupon, CheapTickets, JC Whitney, Esprit, Hugo Boss, Tommy Hilfiger, Lacoste, Puma and Tory Burch to name a few.
+      </p>
+    </div>
+
+<!-- Column 3 contains contact information -->
+    <div class="col3">
+<!--    <h3>Contact Info</h3>     -->
+    
+      <text1 class="header">Contact Info</text1>
+      <br>
       <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+        <li><strong>Email: </strong><a href="mailto:brendan.scruggs@gmail.com">brendan.scruggs@gmail.com</a></li>
+        <li><strong>Github: </strong><a href="https://github.com/catsfanB">catsfanB</a></li>
+        <li><strong>Portfolio: </strong><a href="https://brendan.eagleeyeus.org">coming soon</a></li>
       </ul>
-    </section>
+    </div>
+
   </div>
 
 </body>
-
-</html>
